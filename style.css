@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'NauryzRedKeds';
+    src: url('fonts/NauryzRedKeds.eot');
+    src: url('fonts/NauryzRedKeds.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NauryzRedKeds.woff2') format('woff2'),
+        url('fonts/NauryzRedKeds.woff') format('woff'),
+        url('fonts/NauryzRedKeds.ttf') format('truetype'),
+        url('fonts/NauryzRedKeds.svg#NauryzRedKeds') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #EFEFEF;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	padding-right: 50px;
+	padding-left: 30px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #282828f8;
+	align-items: center;
+	height: 80px;
+    z-index: 99999;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 590px;
+    margin-top: 5px;
+    gap: 30px;
+}
+
+a {
+    font-family: 'NauryzRedKeds';
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.logo {
+    display: flex;
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    margin-top: 0px;
+}
+
+button {
+    font-family: 'NauryzRedKeds';
+    font-size: 13px;
+}
+
+.btn-primary {
+    align-items: center;
+    border-radius: 20px;
+    width: 100px;
+    height: 48px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 0 auto;
+    cursor: pointer; 
+    background-color: #AB0200; 
+    color: white; 
+    transform: translateX(-6px);
+    border: 0;
+}
+
+.btn-secondary {
+    align-items: center;
+    border-radius: 20px;
+    width: 260px;
+    height: 48px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 0 auto;
+    cursor: pointer; 
+    background-color: #AB0200; 
+    color: white;
+    border: 0;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    background-color: rgb(86, 0, 0);
+}
+
+.block {
+    height: 800px;
+    background-image: url(images/fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 16px;
+}
+
+.about {
+    background-image: url(images/fon2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+}
+
+.inform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 50px;
+}
+
+.inform h1 {
+    text-align: center;
+    font-family: 'NauryzRedKeds';
+    font-weight: 500;
+    color: #460100;
+    padding-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+.inform p {
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 360;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 19px;
+}
+
+.about_img {
+	display: flex;
+	background-size: cover;
+}
+
+.google {
+    cursor: pointer; 
+	width: 228px;
+	height: 96px;
+	background-size: cover;
+} 
+
+.appstore {
+    cursor: pointer; 
+	width: 199px;
+	height: 65px;
+	background-size: cover;
+    transform: translateY(16px);
+}
+
+.slider-container {
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+}
+
+.inform h2 {
+    text-align: center;
+    font-family: 'NauryzRedKeds';
+    font-weight: 500;
+    color: #460100;
+    font-size: 65px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    line-height: 100px;
+}
+
+.frame {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about_text {
+    font-family: 'NauryzRedKeds';
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.p {
+    display: flex;
+    width: 310px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+.one {
+    background-image: url(images/people1.JPG);
+    background-size: cover;
+}
+
+.two {
+    background-image: url(images/people2.png);
+    background-size: cover;
+}
+
+.three {
+    background-image: url(images/people3.png);
+    background-size: cover;
+}
+
+.four {
+    background-image: url(images/people4.png);
+    background-size: cover;
+}
+
+.five {
+    background-image: url(images/people5.png);
+    background-size: cover;
+}
+
+.six {
+    background-image: url(images/people6.png);
+    background-size: cover;
+}
+
+.about_mini_text {
+    text-align: left;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 360;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+}
+
+.mobile {
+    height: 1200px;
+    background-image: url(images/mobile.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.mobile-content {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-overlay {
+    color: #ffffff;
+    max-width: 415px;
+}
+
+.text-overlay-1 {
+    margin-top: 140px;
+}
+
+.text-overlay-2 {
+    margin-top: 400px;
+}
+
+.text-overlay .title {
+    font-family: 'NauryzRedKeds';
+	font-size: 25px;
+    background-color: #AB0200;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.text-overlay p {
+    margin-top: 20px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 22px;
+}
+
+.merch_list {
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+}
+
+.photo_el-2, .photo_el {
+    display: flex;
+    width: 1350px;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.slick-arrow {
+    text-indent: -9999px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    flex: 1 0 auto;
+    cursor: pointer;
+    /* background-color: #AB0200; */
+    /* color: white; */
+    border: 0;
+    border-radius: 20px;
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slick-prev {
+    background-image: url(images/arrow_left.png);
+}
+
+.slick-next {
+    background-image: url(images/arrow_right.png);
+}
+
+.inform h3 {
+    text-align: center;
+    font-family: 'NauryzRedKeds';
+    font-weight: 500;
+    color: #460100;
+    font-size: 85px;
+    letter-spacing: 0px;
+    line-height: 60px;
+}
+
+.inform h4 {
+    text-align: center;
+    font-family: 'NauryzRedKeds';
+    font-weight: 500;
+    color: #460100;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.about_text-2 {
+    font-family: 'NauryzRedKeds';
+    cursor: pointer; 
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 0px;
+    text-align: left;
+    color: #460100;
+}
+
+.seven {
+    background-image: url(images/bag.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.eight {
+    background-image: url(images/booklet.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.nine {
+    background-image: url(images/bottle.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.ten {
+    background-image: url(images/plate.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.eleven {
+    background-image: url(images/candle.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.twelve {
+    background-image: url(images/box.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.price {
+    text-align: left;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 19px;
+}
+
+.btn-merch {
+    cursor: pointer;
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-top: 0 auto; 
+    background-color: #460100; 
+    color: white;
+    border: 0;
+}
+
+.footer {
+	height: 150px;
+	background-color: #460100;
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+}
+
+.foot_info {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.headlines {
+    font-family: 'NauryzRedKeds'; 
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    line-height: 55px;
+}
+
+.foot_text_one {
+    text-align: left;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: space-between;
+    font-weight: 360;
+}
+
+.foot_mini_text {
+    text-align: left;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: space-between;
+    line-height: 60px;
+    font-weight: 360;
+}
+
+.foot_images {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.foot_images_two {
+    transform: translateY(16px);
+}
+
+.foot_images_three {
+    transform: translateY(14px);
+}
+
+.main-title {
+    opacity: 0;
+    animation: animation 2.5s forwards;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        font-size: 26px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 32px;
+    }
+}
